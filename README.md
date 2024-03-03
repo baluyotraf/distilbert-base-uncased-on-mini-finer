@@ -25,7 +25,7 @@ smaller counts. These labels are listed below:
 
 ## Performance
 
-The model is a bit weak to getting the `InterestExpenses` and 
+The model is a bit weak to getting the 
 `RevenueFromContractWithCustomerIncludingAssessedTax` compared to the other 
 selected labels. On the other hand, it has very strong performance on the
 remaining labels, which improved the overall score.
@@ -34,12 +34,11 @@ Below is the summary of the performance on all the target labels.
 
 | Label                                                                  | Precision | Recall | F1    |
 |------------------------------------------------------------------------|-----------|--------|-------|
-| CashAndCashEquivalentsFairValueDisclosure                              |     0.100 |  1.000 | 1.000 |
-| EmployeeServiceShareBasedCompensationTaxBenefitFromCompensationExpense |     0.938 |  1.000 | 1.000 |
-| InterestExpense                                                        |     0.966 |  0.935 | 0.951 |
-| RevenueFromContractWithCustomerIncludingAssessedTax                    |     0.942 |  0.958 | 0.950 |
-| Overall                                                                |     0.969 |  0.977 | 0.973 |
-
+| CashAndCashEquivalentsFairValueDisclosure                              |     1.000 |  0.997 | 0.998 |
+| EmployeeServiceShareBasedCompensationTaxBenefitFromCompensationExpense |     0.938 |  1.000 | 0.968 |
+| InterestExpense                                                        |     0.949 |  0.945 | 0.947 |
+| RevenueFromContractWithCustomerIncludingAssessedTax                    |     0.906 |  0.958 | 0.931 |
+| Overall                                                                |     0.959 |  0.979 | 0.969 |
 
 ## Usage
 
